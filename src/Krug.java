@@ -24,4 +24,9 @@ public class Krug extends GeometrijskiLik{
     public double Opseg() {
         return 2*Math.PI*radius;
     }
+
+    @Override
+    public String crtaj() {
+        return "";
+    }
 }

@@ -46,4 +46,9 @@ public class Trokut extends GeometrijskiLik{
     public double Opseg() {
         return stranicaA+stranicaB+stranicaC;
     }
+
+    @Override
+    public String crtaj() {
+        return "";
+    }
 }
